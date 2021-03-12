@@ -12,7 +12,7 @@
 #elif defined(ESP8266)
 #define dtNBR_ALARMS 20  // for esp8266 chip - max is 255
 #else
-#define dtNBR_ALARMS 255  // assume non-AVR has more memory
+#define dtNBR_ALARMS 100  // assume non-AVR has more memory
 #endif
 #endif
 
